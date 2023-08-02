@@ -1,0 +1,16 @@
+version: 2
+
+exposures:
+  - name: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://1f0d1ee1.us1a.app.preset.io/superset/dashboard/p/W2JOZmGkpRm/
+    description: Executive Dashboard about Airbnb listings and hosts
+    
+    depends_on:
+      - ref('mart_fullmoon_reviews')
+
+    owner:
+      name: Emiliano Herrera
+      email: eherrera1331@gmail.com
+    
